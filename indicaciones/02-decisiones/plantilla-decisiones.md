@@ -1,89 +1,80 @@
-# Plantilla: `decisiones.md`
-
-Copia este contenido en un archivo `decisiones.md` en la carpeta `proyecto/` de tu repo y complétalo. Es la **Sumativa 2** (25 pts), y en el checkpoint (18 nov) lo corriges. Sin informe largo.
-
----
-
 # Decisiones de mi sitio
 
-**Emprendimiento:** (nombre)
-**Fecha:** (fecha de entrega) · **Última corrección:** (fecha)
+**Emprendimiento:** Studio Milano  
+**Fecha:** 17 de noviembre de 2026  
+**Hosting elegido:** InfinityFree  
+**CMS:** WordPress  
+**Última corrección:** 17 de noviembre de 2026
 
-## 1. Plugins (10 pts)
+## 1. Plugins
 
-Al menos **5 plugins**, cada uno vale 2 pts. **SEO** y **contacto** son obligatorios; los otros 3 los eliges según lo que necesita tu sitio (parte de `docs/03-funcionalidades.md`). Guía: `guia-investigar-plugins.md`.
+| # | Funcionalidad | Plugin | Gratis o de pago | Estado |
+|---|---|---|---|---|
+| 1 | SEO | Yoast SEO | Gratis y de pago | Pendiente de instalar y probar |
+| 2 | Contacto | Contact Form 7 | Gratis | Pendiente de instalar y probar |
+| 3 | Estadísticas | Site Kit by Google | Gratis | Pendiente de comprobar compatibilidad |
+| 4 | Copias de seguridad | UpdraftPlus | Gratis y de pago | Pendiente de comprobar compatibilidad |
+| 5 | Seguridad | Wordfence Security | Gratis y de pago | Pendiente de comprobar compatibilidad |
 
-| # | Funcionalidad | Plugin | Gratis o de pago | Qué incluye la versión gratis | Probado hasta (WP) | Requiere PHP | ¿Funciona con tema propio? | Enlace a la ficha |
-|---|---|---|---|---|---|---|---|---|
-| 1 | SEO (obligatorio) | | | | | | | |
-| 2 | Contacto (obligatorio) | | | | | | | |
-| 3 | | | | | | | | |
-| 4 | | | | | | | | |
-| 5 | | | | | | | | |
+Los plugins se instalarán solamente si funcionan correctamente en el hosting y no generan errores.
 
-## 2. Páginas de la fase 1 (5 pts)
+## 2. Páginas y contenido
 
-**5 páginas**, 1 pt cada una. **Inicio** y **Contacto** son obligatorias; las otras 3 las eliges (no pueden ser del carro de compras).
-
-| # | Página | Por qué la elijo (una línea) |
-|---|---|---|
-| 1 | Inicio (obligatoria) | |
-| 2 | Contacto (obligatoria) | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
-
-**Páginas que dejo para después:** (lista corta)
-
-## 3. Plan del tema (5 pts)
-
-- **Nombre del tema:**
-- **Custom o descargado:** (y por qué, en una línea)
-- **Carta Gantt** del desarrollo del sitio (5 al 25 de noviembre). Puedes usar esta tabla o un diagrama Mermaid.
-
-| Etapa | Desde | Hasta | Notas |
+| # | Página o contenido | Objetivo | Estado |
 |---|---|---|---|
-| Identidad visual | | | |
-| Home | | | |
-| Páginas | | | |
-| Plugins | | | |
-| **Checkpoint (18 nov)** | | 18 nov | |
-| Ajustes y formulario | | | |
-| **Entrega final (25 nov)** | | 25 nov | |
+| 1 | Inicio | Presentar Studio Milano y sus servicios. | Pendiente |
+| 2 | Contacto | Facilitar la comunicación con los clientes. | Pendiente |
+| 3 | Servicios | Mostrar los diferentes servicios de uñas. | Pendiente |
+| 4 | Blog | Compartir consejos, cuidados y tendencias. | Pendiente |
+| 5 | Tienda | Mostrar productos, fotografías y precios. | Pendiente |
+| 6 | Entrada de blog 1 | Consejos para cuidar las uñas. | Pendiente |
+| 7 | Entrada de blog 2 | Tendencias y diseños de uñas. | Pendiente |
+| 8 | Entrada de blog 3 | Cómo mantener una manicure por más tiempo. | Pendiente |
 
-Ejemplo con Mermaid (GitHub lo muestra como gráfico):
+Las páginas obligatorias para esta entrega son Inicio y Contacto. También se deben publicar tres entradas de blog con contenido.
 
-````
-```mermaid
-gantt
-    dateFormat YYYY-MM-DD
-    title Plan de mi sitio
-    section Tema
-    Identidad visual :2026-11-05, 4d
-    Home             :2026-11-09, 4d
-    section Contenido
-    Páginas          :2026-11-12, 5d
-    Plugins          :2026-11-14, 4d
-    Checkpoint           :milestone, 2026-11-18, 0d
-    Ajustes          :2026-11-19, 6d
-    Entrega final    :milestone, 2026-11-25, 0d
-```
-````
+## 3. Plan del tema
 
-## 4. Plan B (5 pts)
+- **Nombre del tema:** Studio Milano.
+- **Primera opción:** tema personalizado (Custom), para representar la identidad del emprendimiento.
+- **Plan alternativo:** utilizar un tema gratuito de WordPress si el tema personalizado no se puede instalar o presenta errores.
+- **Hosting:** InfinityFree.
+- **Plataforma:** WordPress instalado en InfinityFree.
 
-Qué hago si algo no funciona. **Al menos 3 riesgos**, cada uno con su mitigación y cuándo se activa.
+El tema que se utilice finalmente debe quedar activo y el diseño debe visualizarse correctamente.
 
-| Riesgo | Qué hago | Cuándo se activa (fecha o señal) |
-|---|---|---|
-| El tema propio no funciona o se rompe | | |
-| Un plugin falla o no es compatible | | |
-| | | |
+## 4. Cambios respecto de la Sumativa 2
 
-## Cambios respecto de la Sumativa 2 (solo en el checkpoint del 18 nov)
-
-| Qué cambié | Qué había antes | Por qué | Evidencia (captura o commit) |
+| Qué cambié | Qué había antes | Por qué | Evidencia |
 |---|---|---|---|
-| | | | |
+| Hosting de publicación | Se había considerado WordPress sin dejar confirmado el entorno final. | La entrega debe quedar publicada en InfinityFree, como solicita la evaluación. | Pendiente de captura. |
+| Plataforma de trabajo | Se identificó un sitio de WordPress.com, pero no corresponde al hosting solicitado. | Para evitar entregar un sitio en una plataforma distinta a la indicada por la profesora. | Pendiente de captura. |
+| Tema | Se mantiene la idea de un tema personalizado Studio Milano, con un tema gratuito como alternativa. | Para asegurar que el sitio pueda quedar funcionando y con un tema activo. | Pendiente de captura. |
+| Contenido | Se mantienen las páginas principales y se agregan tres entradas de blog como requisito de entrega. | Para cumplir con los elementos solicitados en la evaluación. | Pendiente de capturas. |
 
-**Decisión:** (continúo con mi propuesta / pivoteo, y por qué)
+**Decisión:** continuar con el proyecto Studio Milano en InfinityFree. No se considera un cambio de emprendimiento ni de diseño; se ajusta el entorno de publicación para cumplir con la evaluación.
+
+## 5. Plan B
+
+| Riesgo | Qué haré | Cuándo se activa |
+|---|---|---|
+| El tema personalizado no funciona. | Revisar los errores y, si no se solucionan, activar un tema gratuito de WordPress. | Si el sitio no muestra correctamente el diseño. |
+| Un plugin presenta errores. | Desactivarlo y buscar otra alternativa. | Si aparecen errores después de instalarlo. |
+| InfinityFree presenta errores. | Revisar la instalación, los archivos y la configuración de WordPress. | Si aparece un error 500 u otro problema. |
+| No alcanzo a terminar todas las páginas. | Priorizar Inicio, Contacto y las tres entradas del blog. | Si falta poco tiempo para la entrega. |
+| El formulario no funciona. | Revisar su configuración y dejar un medio de contacto alternativo, como WhatsApp. | Si los mensajes de prueba no llegan. |
+
+## 6. Estado de implementación
+
+A la fecha de esta actualización, la implementación en InfinityFree está pendiente de comprobar. No se marcará como publicado, instalado o funcionando ningún elemento hasta realizar las pruebas correspondientes.
+
+**Próximas tareas:**
+1. Ingresar al panel de InfinityFree.
+2. Comprobar que WordPress esté instalado.
+3. Ingresar al escritorio de WordPress.
+4. Instalar o activar el tema elegido.
+5. Crear las páginas Inicio y Contacto.
+6. Publicar tres entradas de blog.
+7. Revisar el menú de navegación.
+8. Probar el sitio desde el enlace público.
+9. Guardar capturas como evidencia de funcionamiento.
